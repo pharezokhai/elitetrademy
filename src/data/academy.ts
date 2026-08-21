@@ -30,6 +30,9 @@ export type Trade = {
   theory: string[];
   practical: string[];
   tools: string[];
+  outcomes: string[];
+  careers: string[];
+  earning: string;
   modules: { module: string; theory: number; practical: number; skills: string }[];
 };
 
