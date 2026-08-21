@@ -64,6 +64,21 @@ export const TRADES: Trade[] = [
       "Troubleshooting and load calculation",
     ],
     tools: ["Multimeter", "Clamp meter", "Voltage tester", "Wire strippers", "Conduit bender"],
+    outcomes: [
+      "Wire a full 3-bedroom residence to code, including distribution board and earthing",
+      "Size, install and commission a solar PV plus inverter backup system",
+      "Diagnose faults on DOL and star-delta motor starters with a clamp meter",
+      "Perform load calculations and produce a compliant circuit schedule",
+      "Install smart-home switching, sensors and generator transfer switches",
+      "Run a job site to lockout/tagout and PPE discipline",
+    ],
+    careers: [
+      "Residential and commercial wiring technician",
+      "Solar PV installer",
+      "Facility maintenance electrician",
+      "Panel builder / industrial controls assistant",
+    ],
+    earning: "₦180,000 – ₦450,000 monthly for certified technicians on dispatch and contract work",
     modules: [
       { module: "Safety & Tools", theory: 10, practical: 10, skills: "Lockout/tagout, PPE, multimeter usage" },
       { module: "Basic Electricity", theory: 20, practical: 20, skills: "Ohm's law, series/parallel, AC/DC" },
