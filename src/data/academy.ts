@@ -118,6 +118,21 @@ export const TRADES: Trade[] = [
       "Backflow prevention",
     ],
     tools: ["Pipe wrenches", "Auger", "Camera inspection system", "Soldering torch"],
+    outcomes: [
+      "Complete rough-in and finish plumbing for a 2-bedroom bungalow",
+      "Join PEX, copper and PVC to code with crimp, solder and solvent methods",
+      "Design and install compliant drainage, venting and trap-seal systems",
+      "Install booster pumps, storage tanks and level controls",
+      "Locate concealed leaks using thermal imaging, acoustic and dye methods",
+      "Connect and commission a solar thermosiphon water-heating system",
+    ],
+    careers: [
+      "Residential and commercial plumbing technician",
+      "Facility and estate maintenance plumber",
+      "Solar water-heating installer",
+      "Leak detection and pipeline inspection specialist",
+    ],
+    earning: "₦170,000 – ₦400,000 monthly, with premium rates for leak detection and hot-water work",
     modules: [
       { module: "Plumbing Math & Codes", theory: 10, practical: 10, skills: "Pipe sizing, slope calculations, NPC" },
       { module: "Pipe Joining", theory: 15, practical: 35, skills: "PEX crimp, PVC solvent, copper solder" },
