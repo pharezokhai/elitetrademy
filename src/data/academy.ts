@@ -172,6 +172,21 @@ export const TRADES: Trade[] = [
       "Split and package unit installation",
     ],
     tools: ["Gauge manifold", "Vacuum pump", "Leak detector", "Recovery machine"],
+    outcomes: [
+      "Install, evacuate, charge and commission a 3-ton split system end to end",
+      "Read pressure-enthalpy behaviour and set superheat and subcooling correctly",
+      "Recover and handle R-32 and R-410A refrigerant to environmental regulation",
+      "Braze and flare joints and pressure-test for leaks",
+      "Diagnose electrical faults on capacitors, relays and thermostats",
+      "Commission VRF/VRV branch controllers and address indoor units",
+    ],
+    careers: [
+      "Split and package AC installation technician",
+      "VRF/VRV commissioning technician",
+      "Cold-room and refrigeration service technician",
+      "Building services HVAC maintenance lead",
+    ],
+    earning: "₦200,000 – ₦550,000 monthly — the highest-demand trade in our placement network",
     modules: [
       { module: "Refrigeration Cycle", theory: 20, practical: 20, skills: "Pressure-enthalpy, superheat, subcooling" },
       { module: "Refrigerant Handling", theory: 10, practical: 20, skills: "R-32 / R-410A recovery, vacuum" },
