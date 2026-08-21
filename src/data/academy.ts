@@ -30,6 +30,9 @@ export type Trade = {
   theory: string[];
   practical: string[];
   tools: string[];
+  outcomes: string[];
+  careers: string[];
+  earning: string;
   modules: { module: string; theory: number; practical: number; skills: string }[];
 };
 
@@ -61,6 +64,21 @@ export const TRADES: Trade[] = [
       "Troubleshooting and load calculation",
     ],
     tools: ["Multimeter", "Clamp meter", "Voltage tester", "Wire strippers", "Conduit bender"],
+    outcomes: [
+      "Wire a full 3-bedroom residence to code, including distribution board and earthing",
+      "Size, install and commission a solar PV plus inverter backup system",
+      "Diagnose faults on DOL and star-delta motor starters with a clamp meter",
+      "Perform load calculations and produce a compliant circuit schedule",
+      "Install smart-home switching, sensors and generator transfer switches",
+      "Run a job site to lockout/tagout and PPE discipline",
+    ],
+    careers: [
+      "Residential and commercial wiring technician",
+      "Solar PV installer",
+      "Facility maintenance electrician",
+      "Panel builder / industrial controls assistant",
+    ],
+    earning: "₦180,000 – ₦450,000 monthly for certified technicians on dispatch and contract work",
     modules: [
       { module: "Safety & Tools", theory: 10, practical: 10, skills: "Lockout/tagout, PPE, multimeter usage" },
       { module: "Basic Electricity", theory: 20, practical: 20, skills: "Ohm's law, series/parallel, AC/DC" },
@@ -100,6 +118,21 @@ export const TRADES: Trade[] = [
       "Backflow prevention",
     ],
     tools: ["Pipe wrenches", "Auger", "Camera inspection system", "Soldering torch"],
+    outcomes: [
+      "Complete rough-in and finish plumbing for a 2-bedroom bungalow",
+      "Join PEX, copper and PVC to code with crimp, solder and solvent methods",
+      "Design and install compliant drainage, venting and trap-seal systems",
+      "Install booster pumps, storage tanks and level controls",
+      "Locate concealed leaks using thermal imaging, acoustic and dye methods",
+      "Connect and commission a solar thermosiphon water-heating system",
+    ],
+    careers: [
+      "Residential and commercial plumbing technician",
+      "Facility and estate maintenance plumber",
+      "Solar water-heating installer",
+      "Leak detection and pipeline inspection specialist",
+    ],
+    earning: "₦170,000 – ₦400,000 monthly, with premium rates for leak detection and hot-water work",
     modules: [
       { module: "Plumbing Math & Codes", theory: 10, practical: 10, skills: "Pipe sizing, slope calculations, NPC" },
       { module: "Pipe Joining", theory: 15, practical: 35, skills: "PEX crimp, PVC solvent, copper solder" },
@@ -139,6 +172,21 @@ export const TRADES: Trade[] = [
       "Split and package unit installation",
     ],
     tools: ["Gauge manifold", "Vacuum pump", "Leak detector", "Recovery machine"],
+    outcomes: [
+      "Install, evacuate, charge and commission a 3-ton split system end to end",
+      "Read pressure-enthalpy behaviour and set superheat and subcooling correctly",
+      "Recover and handle R-32 and R-410A refrigerant to environmental regulation",
+      "Braze and flare joints and pressure-test for leaks",
+      "Diagnose electrical faults on capacitors, relays and thermostats",
+      "Commission VRF/VRV branch controllers and address indoor units",
+    ],
+    careers: [
+      "Split and package AC installation technician",
+      "VRF/VRV commissioning technician",
+      "Cold-room and refrigeration service technician",
+      "Building services HVAC maintenance lead",
+    ],
+    earning: "₦200,000 – ₦550,000 monthly — the highest-demand trade in our placement network",
     modules: [
       { module: "Refrigeration Cycle", theory: 20, practical: 20, skills: "Pressure-enthalpy, superheat, subcooling" },
       { module: "Refrigerant Handling", theory: 10, practical: 20, skills: "R-32 / R-410A recovery, vacuum" },
