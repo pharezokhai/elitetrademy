@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { CONTACT, TRADES } from "@/data/academy";
 
 export const Route = createFileRoute("/courses")({
@@ -91,6 +91,13 @@ export default function CoursesPage() {
                 </p>
                 <h2 className="display-xl mt-4 text-4xl md:text-5xl">{t.name}</h2>
                 <p className="mt-4 leading-relaxed text-muted-foreground">{t.tagline}</p>
+                <Link
+                  to="/courses/$slug"
+                  params={{ slug: t.slug }}
+                  className="mt-6 inline-block bg-primary px-5 py-3 text-xs font-bold text-primary-foreground uppercase hover:bg-primary-dark"
+                >
+                  View full course page
+                </Link>
 
                 <div className="mt-8 grid gap-8 sm:grid-cols-2">
                   <div>
