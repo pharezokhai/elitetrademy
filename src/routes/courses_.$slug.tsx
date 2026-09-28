@@ -233,7 +233,7 @@ function CoursePage() {
             {others.map((t) => (
               <Link
                 key={t.slug}
-                to="/courses_/$slug"
+                to="/courses/$slug"
                 params={{ slug: t.slug }}
                 className="group bg-surface-deep p-8 transition-colors hover:bg-surface"
               >

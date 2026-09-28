@@ -102,6 +102,13 @@ function HomePage() {
                 <p className="label-mono text-primary">
                   {t.duration} / {t.hours}
                 </p>
+                <Link
+                  to="/courses/$slug"
+                  params={{ slug: t.slug }}
+                  className="label-mono inline-flex items-center gap-2 text-foreground hover:text-primary"
+                >
+                  View course <ArrowRight size={12} />
+                </Link>
               </div>
             </article>
           ))}
